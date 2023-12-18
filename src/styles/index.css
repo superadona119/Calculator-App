@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+  }
+
+  :root {
+    --color-background: hsl(222, 26%, 31%);
+    --color-calculator: hsl(222, 28%, 25%);
+    --color-toggle: hsl(223, 31%, 22%);
+    --color-display: hsl(224, 36%, 15%);
+    --color-operatorKeyHover: hsl(224, 51%, 76%);
+    --color-operatorKey: hsl(225, 21%, 49%);
+    --color-operatorKeyShadow: hsl(224, 28%, 35%);
+    --color-otherKeyHover: hsl(6, 93%, 67%);
+    --color-otherKey: hsl(6, 63%, 50%);
+    --color-otherKeyShadow: hsl(6, 70%, 34%);
+    --color-numberKeyHover: hsl(30, 25%, 100%);
+    --color-numberKey: hsl(30, 25%, 89%);
+    --color-numberKeyShadow: hsl(28, 16%, 65%);
+    --color-text: hsl(221, 14%, 31%);
+    --color-historialText: hsl(0, 0%, 65%);
+    --color-displayText: hsl(0, 0%, 100%);
+    --color-switch: hsl(6, 93%, 67%);
+  }
+
+  .theme1 {
+    --color-background: hsl(222, 26%, 31%);
+    --color-calculator: hsl(222, 28%, 28%);
+    --color-toggle: hsl(223, 31%, 22%);
+    --color-display: hsl(224, 36%, 15%);
+    --color-operatorKeyHover: hsl(224, 51%, 76%);
+    --color-operatorKey: hsl(225, 21%, 49%);
+    --color-operatorKeyShadow: hsl(224, 28%, 35%);
+    --color-otherKeyHover: hsl(6, 93%, 67%);
+    --color-otherKey: hsl(6, 63%, 50%);
+    --color-otherKeyShadow: hsl(6, 70%, 34%);
+    --color-numberKeyHover: hsl(30, 25%, 100%);
+    --color-numberKey: hsl(30, 25%, 89%);
+    --color-numberKeyShadow: hsl(28, 16%, 65%);
+    --color-text: hsl(221, 14%, 31%);
+    --color-historialText: hsl(0, 0%, 65%);
+    --color-displayText: hsl(0, 0%, 100%);
+    --color-switch: hsl(6, 93%, 67%);
+  }
+
+  .theme2 {
+    --color-background: hsl(0, 0%, 90%);
+    --color-calculator: hsl(0, 0%, 70%);
+    --color-toggle: hsl(0, 5%, 81%);
+    --color-display: hsl(0, 0%, 93%);
+    --color-operatorKeyHover: hsl(185, 42%, 76%);
+    --color-operatorKey: hsl(185, 58%, 25%);
+    --color-operatorKeyShadow: hsl(185, 58%, 18%);
+    --color-otherKeyHover: hsl(25, 98%, 70%);
+    --color-otherKey: hsl(25, 98%, 40%);
+    --color-otherKeyShadow: hsl(25, 99%, 27%);
+    --color-numberKeyHover: hsl(30, 25%, 95%);
+    --color-numberKey: hsl(30, 25%, 89%);
+    --color-numberKeyShadow: hsl(28, 16%, 65%);
+    --color-text: hsl(60, 10%, 19%);
+    --color-historialText: hsl(0, 0%, 45%);
+    --color-displayText: hsl(60, 10%, 19%);
+    --color-switch: hsl(25, 98%, 65%);
+  }
+
+  .theme3 {
+    --color-background: hsl(268, 75%, 9%);
+    --color-calculator: hsl(268, 60%, 28%);
+    --color-toggle: hsl(268, 71%, 12%);
+    --color-display: hsl(268, 71%, 12%);
+    --color-operatorKeyHover: hsl(281, 50%, 50%);
+    --color-operatorKey: hsl(281, 89%, 26%);
+    --color-operatorKeyShadow: hsl(285, 91%, 52%);
+    --color-otherKeyHover: hsl(176, 100%, 90%);
+    --color-otherKey: hsl(176, 100%, 44%);
+    --color-otherKeyShadow: hsl(177, 92%, 70%);
+    --color-numberKeyHover: hsl(268, 47%, 50%);
+    --color-numberKey: hsl(268, 47%, 21%);
+    --color-numberKeyShadow: hsl(290, 70%, 36%);
+    --color-text: hsl(52, 100%, 62%);
+    --color-historialText: hsl(0, 0%, 65%);
+    --color-displayText: hsl(52, 100%, 62%);
+    --color-switch: hsl(176, 100%, 80%);
+  }
+}
